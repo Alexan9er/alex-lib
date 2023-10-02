@@ -24,6 +24,8 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/alexan9er"
+    "publishConfig": {
+      "@alexan9er:registry": "https://npm.pkg.github.com"
+    }
   }
 }
