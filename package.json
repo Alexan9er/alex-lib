@@ -1,5 +1,5 @@
 {
-  "name": "@Alexan9er/alex-lib",
+  "name": "@alexan9er/alex-lib",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.umd.js",
@@ -12,7 +12,7 @@
     "build": "vite build && tsc",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "Alexan9er",
+  "author": "alexan9er",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.2.24",
@@ -24,6 +24,6 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "@Alexan9er:registry": "https://npm.pkg.github.com"
-    }
+    "registry": "https://npm.pkg.github.com/alexan9er"
+  }
 }
